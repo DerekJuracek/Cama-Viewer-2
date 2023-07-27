@@ -1,0 +1,66 @@
+{
+  "webmapId": "2c734b016b3e420197c1d6d6b824fb60",
+  "image": "https://publicweb-gis.s3.amazonaws.com/Images/MunicipalSeals/Eastford_CT.png",
+  "title": "Town of Eastford, CT",
+  "cssHeaderBackground": "#80bfbf",
+  "cssViewBackground": "#d4d4d4",
+  "cssLayerFilterColor": "#dfe8e8",
+  "cssLayerFilterTextColor": "#474747",
+  "basemapTitle": "CT Eastford Basemap",
+  "layers": [
+    {
+      "url": "https://services1.arcgis.com/j6iFLXhyiD3XTMyD/ArcGIS/rest/services/CT_Eastford_CAMA_Viewer/FeatureServer/8",
+      "title": "Land Influence",
+      "fieldName": "Influence_Type",
+      "isVisible": false,
+      "orderByField": "OBJECTID",
+      "combobox1": "combo11",
+      "combobox2": "combo12"
+    },
+    {
+      "url": "https://services1.arcgis.com/j6iFLXhyiD3XTMyD/ArcGIS/rest/services/CT_Eastford_CAMA_Viewer/FeatureServer/4",
+      "title": "Neighborhood",
+      "fieldName": "Neighborhood",
+      "isVisible": false,
+      "orderByField": "OBJECTID",
+      "combobox1": "combo9",
+      "combobox2": "combo10"
+    },
+    {
+      "url": "https://services1.arcgis.com/j6iFLXhyiD3XTMyD/ArcGIS/rest/services/CT_Eastford_CAMA_Viewer/FeatureServer/3",
+      "title": "Design Type",
+      "fieldName": "Design_Type",
+      "isVisible": false,
+      "orderByField": "OBJECTID",
+      "combobox1": "combo7",
+      "combobox2": "combo8"
+    },
+    {
+      "url": "https://services1.arcgis.com/j6iFLXhyiD3XTMyD/ArcGIS/rest/services/CT_Eastford_CAMA_Viewer/FeatureServer/2",
+      "title": "Parcel Type",
+      "fieldName": "Parcel_Type",
+      "isVisible": false,
+      "orderByField": "OBJECTID",
+      "combobox1": "combo5",
+      "combobox2": "combo6"
+    },
+    {
+      "url": "https://services1.arcgis.com/j6iFLXhyiD3XTMyD/ArcGIS/rest/services/CT_Eastford_CAMA_Viewer/FeatureServer/1",
+      "title": "Primary Building Use",
+      "fieldName": "Building_Use_Code",
+      "isVisible": false,
+      "orderByField": "OBJECTID",
+      "combobox1": "combo3",
+      "combobox2": "combo4"
+    },
+    {
+      "url": "https://services1.arcgis.com/j6iFLXhyiD3XTMyD/arcgis/rest/services/CT_Eastford_CAMA_Viewer/FeatureServer/0",
+      "title": "Primary Use",
+      "fieldName": "Parcel_Primary_Use",
+      "isVisible": false,
+      "orderByField": "OBJECTID",
+      "combobox1": "combo1",
+      "combobox2": "combo2"
+    }
+  ]
+}

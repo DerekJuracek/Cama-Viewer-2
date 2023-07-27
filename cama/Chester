@@ -1,0 +1,66 @@
+{
+  "webmapId": "f19589504dd34a83ade67ca34131347b",
+  "image": "https://publicweb-gis.s3.amazonaws.com/Images/MunicipalSeals/Chester_CT.png",
+  "title": "Town of Chester, CT",
+  "cssHeaderBackground": "#64775f",
+  "cssViewBackground": "#d4d4d4",
+  "cssLayerFilterColor": "#d4d4d4",
+  "cssLayerFilterTextColor": "#474747",
+  "basemapTitle": "CT Chester Basemap",
+  "layers": [
+    {
+      "url": "https://services1.arcgis.com/j6iFLXhyiD3XTMyD/ArcGIS/rest/services/CT_Chester_CAMA_Viewer/FeatureServer/8",
+      "title": "Land Influence",
+      "fieldName": "Influence_Type",
+      "isVisible": false,
+      "orderByField": "OBJECTID",
+      "combobox1": "combo11",
+      "combobox2": "combo12"
+    },
+    {
+      "url": "https://services1.arcgis.com/j6iFLXhyiD3XTMyD/ArcGIS/rest/services/CT_Chester_CAMA_Viewer/FeatureServer/4",
+      "title": "Neighborhood",
+      "fieldName": "Neighborhood",
+      "isVisible": false,
+      "orderByField": "OBJECTID",
+      "combobox1": "combo9",
+      "combobox2": "combo10"
+    },
+    {
+      "url": "https://services1.arcgis.com/j6iFLXhyiD3XTMyD/ArcGIS/rest/services/CT_Chester_CAMA_Viewer/FeatureServer/3",
+      "title": "Design Type",
+      "fieldName": "Design_Type",
+      "isVisible": false,
+      "orderByField": "OBJECTID",
+      "combobox1": "combo7",
+      "combobox2": "combo8"
+    },
+    {
+      "url": "https://services1.arcgis.com/j6iFLXhyiD3XTMyD/ArcGIS/rest/services/CT_Chester_CAMA_Viewer/FeatureServer/2",
+      "title": "Parcel Type",
+      "fieldName": "Parcel_Type",
+      "isVisible": false,
+      "orderByField": "OBJECTID",
+      "combobox1": "combo5",
+      "combobox2": "combo6"
+    },
+    {
+      "url": "https://services1.arcgis.com/j6iFLXhyiD3XTMyD/ArcGIS/rest/services/CT_Chester_CAMA_Viewer/FeatureServer/1",
+      "title": "Primary Building Use",
+      "fieldName": "Building_Use_Code",
+      "isVisible": false,
+      "orderByField": "OBJECTID",
+      "combobox1": "combo3",
+      "combobox2": "combo4"
+    },
+    {
+      "url": "https://services1.arcgis.com/j6iFLXhyiD3XTMyD/arcgis/rest/services/CT_Chester_CAMA_Viewer/FeatureServer/0",
+      "title": "Primary Use",
+      "fieldName": "Parcel_Primary_Use",
+      "isVisible": false,
+      "orderByField": "OBJECTID",
+      "combobox1": "combo1",
+      "combobox2": "combo2"
+    }
+  ]
+}

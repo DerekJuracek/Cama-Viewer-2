@@ -1,0 +1,66 @@
+{
+  "webmapId": "4469a681845c45b49d94952f329aae4d",
+  "image": "https://publicweb-gis.s3.amazonaws.com/Images/MunicipalSeals/Scotland_CT.png",
+  "title": "Town of Scotland, CT",
+  "cssHeaderBackground": "#014421",
+  "cssViewBackground": "#014421",
+  "cssLayerFilterColor": "#926F52",
+  "cssLayerFilterTextColor": "#FFFFFF",
+  "basemapTitle": "CT Scotland Basemap",
+  "layers": [
+    {
+      "url": "https://services1.arcgis.com/j6iFLXhyiD3XTMyD/ArcGIS/rest/services/CT_Scotland_CAMA_Viewer/FeatureServer/8",
+      "title": "Land Influence",
+      "fieldName": "Influence_Type",
+      "isVisible": false,
+      "orderByField": "OBJECTID",
+      "combobox1": "combo11",
+      "combobox2": "combo12"
+    },
+    {
+      "url": "https://services1.arcgis.com/j6iFLXhyiD3XTMyD/ArcGIS/rest/services/CT_Scotland_CAMA_Viewer/FeatureServer/4",
+      "title": "Neighborhood",
+      "fieldName": "Neighborhood",
+      "isVisible": false,
+      "orderByField": "OBJECTID",
+      "combobox1": "combo9",
+      "combobox2": "combo10"
+    },
+    {
+      "url": "https://services1.arcgis.com/j6iFLXhyiD3XTMyD/ArcGIS/rest/services/CT_Scotland_CAMA_Viewer/FeatureServer/3",
+      "title": "Design Type",
+      "fieldName": "Design_Type",
+      "isVisible": false,
+      "orderByField": "OBJECTID",
+      "combobox1": "combo7",
+      "combobox2": "combo8"
+    },
+    {
+      "url": "https://services1.arcgis.com/j6iFLXhyiD3XTMyD/ArcGIS/rest/services/CT_Scotland_CAMA_Viewer/FeatureServer/2",
+      "title": "Parcel Type",
+      "fieldName": "Parcel_Type",
+      "isVisible": false,
+      "orderByField": "OBJECTID",
+      "combobox1": "combo5",
+      "combobox2": "combo6"
+    },
+    {
+      "url": "https://services1.arcgis.com/j6iFLXhyiD3XTMyD/ArcGIS/rest/services/CT_Scotland_CAMA_Viewer/FeatureServer/1",
+      "title": "Primary Building Use",
+      "fieldName": "Building_Use_Code",
+      "isVisible": false,
+      "orderByField": "OBJECTID",
+      "combobox1": "combo3",
+      "combobox2": "combo4"
+    },
+    {
+      "url": "https://services1.arcgis.com/j6iFLXhyiD3XTMyD/ArcGIS/rest/services/CT_Scotland_CAMA_Viewer/FeatureServer/0",
+      "title": "Primary Use",
+      "fieldName": "Parcel_Primary_Use",
+      "isVisible": false,
+      "orderByField": "OBJECTID",
+      "combobox1": "combo1",
+      "combobox2": "combo2"
+    }
+  ]
+}

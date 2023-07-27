@@ -1,0 +1,66 @@
+{
+  "webmapId": "c031b102c0a343ad9ed7ece82edebdf7",
+  "image": "https://publicweb-gis.s3.amazonaws.com/Images/MunicipalSeals/Weston_CT.png",
+  "title": "Town of Weston, CT",
+  "cssHeaderBackground": "#69a0b8",
+  "cssViewBackground": "#f5f5f5",
+  "cssLayerFilterColor": "#b0ab8e",
+  "cssLayerFilterTextColor": "#000000",
+  "basemapTitle": "CT Weston Basemap",
+  "layers": [
+    {
+      "url": "https://services1.arcgis.com/j6iFLXhyiD3XTMyD/ArcGIS/rest/services/CT_Weston_CAMA_Viewer/FeatureServer/8",
+      "title": "Land Influence",
+      "fieldName": "Influence_Type",
+      "isVisible": false,
+      "orderByField": "OBJECTID",
+      "combobox1": "combo11",
+      "combobox2": "combo12"
+    },
+    {
+      "url": "https://services1.arcgis.com/j6iFLXhyiD3XTMyD/ArcGIS/rest/services/CT_Weston_CAMA_Viewer/FeatureServer/4",
+      "title": "Neighborhood",
+      "fieldName": "Neighborhood",
+      "isVisible": false,
+      "orderByField": "OBJECTID",
+      "combobox1": "combo9",
+      "combobox2": "combo10"
+    },
+    {
+      "url": "https://services1.arcgis.com/j6iFLXhyiD3XTMyD/ArcGIS/rest/services/CT_Weston_CAMA_Viewer/FeatureServer/3",
+      "title": "Design Type",
+      "fieldName": "Design_Type",
+      "isVisible": false,
+      "orderByField": "OBJECTID",
+      "combobox1": "combo7",
+      "combobox2": "combo8"
+    },
+    {
+      "url": "https://services1.arcgis.com/j6iFLXhyiD3XTMyD/ArcGIS/rest/services/CT_Weston_CAMA_Viewer/FeatureServer/2",
+      "title": "Parcel Type",
+      "fieldName": "Parcel_Type",
+      "isVisible": false,
+      "orderByField": "OBJECTID",
+      "combobox1": "combo5",
+      "combobox2": "combo6"
+    },
+    {
+      "url": "https://services1.arcgis.com/j6iFLXhyiD3XTMyD/ArcGIS/rest/services/CT_Weston_CAMA_Viewer/FeatureServer/1",
+      "title": "Primary Building Use",
+      "fieldName": "Building_Use_Code",
+      "isVisible": false,
+      "orderByField": "OBJECTID",
+      "combobox1": "combo3",
+      "combobox2": "combo4"
+    },
+    {
+      "url": "https://services1.arcgis.com/j6iFLXhyiD3XTMyD/arcgis/rest/services/CT_Weston_CAMA_Viewer/FeatureServer/0",
+      "title": "Primary Use",
+      "fieldName": "Parcel_Primary_Use",
+      "isVisible": false,
+      "orderByField": "OBJECTID",
+      "combobox1": "combo1",
+      "combobox2": "combo2"
+    }
+  ]
+}
