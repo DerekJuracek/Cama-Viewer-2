@@ -28,7 +28,7 @@ require([
   reactiveUtils
 ) {
   const urlParams = new URLSearchParams(window.location.search);
-  const configUrl = urlParams.get("viewer") || "cama/North_Haven";
+  const configUrl = urlParams.get("viewer") || "cama/North_Haven.json";
 
   fetch(configUrl)
     .then((response) => response.json())
